@@ -1,14 +1,14 @@
 ---
 title: "multi-tool"
 author: "Limit6"
-description: "A small pocket-size gadget that features clock, compass and temperature, with more features coming! It's built for hiking and is designed for ultra-low power."
+description: "A small pocket-size gadget that features clock or compass, with more features coming! It's built for hiking and is designed for ultra-low power."
 created_at: "2025-07-12"
 ---
 
 # July 12: Project outline and components
 I've created this github repo and settled down on what the final projet should look like. I've had the project visioned for a some time, but i've started now building it. 
 
-I want it to be a something like smart pocket watch. It should have clock, compass, teperature and humidity sensors, also a gps for distance tracking. The watch would be built for use in nature, so it needs to be really power efficient, because charghing availability won't be big there. I'll be using it on trips that will be several days long, and I hope I could use this gadget for tracking my trip and general usage there. I imagine it would have a rotating wheel and a button. I think this would be sufficient for all ui navigation.
+I want it to be a something like smart pocket watch. It should have clock, compass, also a gps for distance tracking. The watch would be built for use in nature, so it needs to be really power efficient, because charghing availability won't be big there. I'll be using it on trips that will be several days long, and I hope I could use this gadget for tracking my trip and general usage there. I imagine it would have a rotating wheel and a button. I think this would be sufficient for all ui navigation.
 
 ## Part selection
 
