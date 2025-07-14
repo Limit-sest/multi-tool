@@ -48,4 +48,39 @@ This is surprisingly quite complicated part. I need high capacity for all the se
 
 **Time spent this session: 5h15m**
 
-**Total time spent: 5h15m**
+# July 13: Assembly in Tinkercad
+
+I was following the design guide on [highway wiki](https://highway.hackclub.com/advanced/design-guide), so next step after picking the parts is CAD. I initially downloaded FreeCAD, but i found it very overwhelming and unintuitive, so i chose Tinkercad for it’s simplicity (though that might have been a mistake).
+
+After opening Tinkercad, I went to gather 3d models for all my parts to have an idea about how could they fit together and to generally have a better vision of the project. This actually went quite smoothly (thanks grabcad!)
+
+
+<img width="1920" height="942" alt="Screenshot 2025-07-13 at 13-09-21 3D design MultiTool - Tinkercad" src="https://github.com/user-attachments/assets/c8d4cbd7-3c33-4acb-bcc1-b455aa1d13d3" />
+
+
+But when the parts were layed out next to each other, I quickly realized that some of the parts are just too big for them to be in a small portable device. For curiosity I laid the biggest part on top of each other, and it was over 4cm (1.57in) tall! Imagine having that in your pocket…
+
+
+<img width="1920" height="942" alt="Screenshot 2025-07-13 at 13-01-33 3D design MultiTool - Tinkercad" src="https://github.com/user-attachments/assets/645ded4d-adf5-4ffc-9065-e972d33c7a94" />
+
+
+I went to look an aliexpress, trying to find smaller gps and rtc modules. I’ve used Perplexity to help me find smaller modules and I’ve found `GT-U7` [module](https://www.aliexpress.com/item/1005001713388717.html) which is quite small at 27.6x26.6cm, but later I noticed that the power supply range is 3.6V-5V, which i can’t use because my microcontroller only outputs 3.3V. So i went searching again and settled on [this module](https://www.aliexpress.com/item/1005002857812910.html), which uses the same `NEO-6M` chip as the module before, and is actually in total a bit smaller than the previous, at 23x30cm. As for the rtc, after quite long digging through aliexpress I’ve found [this module](https://www.aliexpress.com/item/1005006885926027.html). It’s smaller mainly because it uses a smaller battery.
+
+
+<img width="1920" height="942" alt="Screenshot 2025-07-13 at 14-23-10 3D design MultiTool - Tinkercad" src="https://github.com/user-attachments/assets/785bb01e-42e4-4712-9fb2-4db751e15724" />
+
+
+Then i got to the assembly itself. By that i mean figuring out roughly how would the modules fit together inside the case. One thing i had to look out for was to have the magnetometer and accelerometer placed down and flat, because otherwise it could produce bad outputs. I’ve started with the battery, because i felt it makes sense to have it on the bottom.
+
+
+<img width="1920" height="942" alt="Screenshot 2025-07-13 at 15-04-01 3D design MultiTool - Tinkercad" src="https://github.com/user-attachments/assets/e6d3e11c-b564-435f-95ec-ae72e02e43a3" />
+
+
+After I had it assembled, I tried to create some sort of case in tinkercad, but it was just too hard! Tinkercad was fine for the basic drag-and-drop putting modules together, but once it came to some measurements and more precise work, it fails. I’m still glad i used it for this putting of things together, because it allowed me to make quick changes, but for the case I’ll need to learn with a better and more proffesional cad, for example with Onshape. Here is how the case looked in tinkercad 😄
+
+
+<img width="1920" height="942" alt="Screenshot 2025-07-13 at 21-41-58 3D design MultiTool - Tinkercad" src="https://github.com/user-attachments/assets/014387d9-27cb-4b45-b968-f8f125be3172" />
+
+**Time spent this session: 5h10m**
+
+**Total time spent: 10h25m**
