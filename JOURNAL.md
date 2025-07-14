@@ -83,4 +83,14 @@ After I had it assembled, I tried to create some sort of case in tinkercad, but 
 
 **Time spent this session: 5h10m**
 
-**Total time spent: 10h25m**
+# July 14: Starting with Onshape
+
+As I've written in the last entry, i needed a real cad. I went with onshape, because it was reccomended on the highway wiki and also it's free. I watched a [quick video tutorial](https://youtu.be/2utLjjkXpIg), which helped me with the basic understanding of onshape workflow. But when i actually launched the app, one thing that surprised me was how unintuitive (compated to tinkercad) was the movement in the 3d space. But I've just accepted that i will be using the cube on top for rotating. 
+
+First to get working on my case, i needed to import models for the components. It took me about 10 minutes to figure out how to do that, but I eventually got there :D. This is basically what i managed to do this session.
+
+<img width="1920" height="942" alt="image" src="https://github.com/user-attachments/assets/b057874e-984b-4c05-9686-64c1387c1e9c" />
+
+**Time spent this session: 1h10m**
+
+**Total time spent: 11h35m**
