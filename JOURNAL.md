@@ -93,4 +93,11 @@ First to get working on my case, i needed to import models for the components. I
 
 **Time spent this session: 1h10m**
 
-**Total time spent: 11h35m**
+# July 19: Wiring schematic
+I've decided to drop making the case for now, because I don't have much time and learning how to use a 3d cad and making something solid is hard. I know that I will eventually need to make a case, but that can wait after the deadline. The next thing i neded to make was the schematic. This wasn't hard, because I'm just connecting premade modules together. The most tedious job was making the schematics for the modules and referencing the pins to the sheets, but then the wiring it together was easy, quick and actually a bit fun.
+
+<img width="510" height="825" alt="Screenshot from 2025-07-19 21-13-42" src="https://github.com/user-attachments/assets/88e325c2-0f77-4b1c-9482-73e5ab786285" />
+
+**Time spent this session: 1h26m**
+
+**Total time spent: 13h01m**
