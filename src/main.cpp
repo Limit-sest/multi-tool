@@ -6,12 +6,14 @@
 #include <MPU6500_WE.h>
 #include <SoftwareSerial.h>
 #include <TinyGPSPlus.h>
+#include <U8g2lib.h>
 
 RTC_DS3231 rtc;
 QMC5883LCompass compass;
 MPU6500_WE mpu = MPU6500_WE();
 TinyGPSPlus gps;
 SoftwareSerial ss(D7, D6);
+U8G2_SSD1327_VISIONOX_128X96_1_SW_I2C display(U8G2_R2, D5, D4);
 
 void setup()
 {
@@ -36,6 +38,11 @@ void setup()
   delay(1000);
   mpu.autoOffsets();
   Serial.println("calibrated!");
+
+  if (!display.begin())
+  {
+    Serial.println("Can't find display");
+  }
 }
 
 void loop()
@@ -101,6 +108,13 @@ void loop()
   Serial.println("m");
 
   Serial.println("********************************************");
+
+  display.firstPage();
+  do
+  {
+    display.setFont(u8g2_font_ncenB14_tr);
+    display.drawStr(0, 15, timeBuffer);
+  } while (display.nextPage());
 
   delay(1000);
 }
