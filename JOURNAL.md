@@ -100,4 +100,15 @@ I've decided to drop making the case for now, because I don't have much time and
 
 **Time spent this session: 1h26m**
 
+# July 20: Starting with firmware
+I started off with making small changes to the schematic, to be more compact on screenshots.
+
+Then I wanted to write firmware. After a bit of research on what programming language I should use, it was pretty clear that C++ is most supported in the hardware space. And then I wondered, how do libraries work in C++? I've had experience only with javascript and python, where installing libraries is quite easy – you have a tool that istalls libraries either globally or into the project folder, but with c++ it seemed that I need to use specific compiler to use the libs.
+
+I found out on the internet that the easiest solution is just to use the Arduino IDE, which can install libs just with a click of a button. But I was very disappointed to learn that it doesn't have multifile support, intellisense or other things I'd expect from an *IDE*. My natural second option was VSCode, as I'm quite familiar with it. For VSCode it is recommended to use platformio, which i installed along with the c++ extension and everything surprisingly worked as expected!
+
+This day I made very basic firmware for RTC and compass. I had to be writing it only theoretically, because i don't have access to the hardware modules yet, so I can't really test it. I've used RTClib and QMC5883LCompass libraries, for each module one.
+
+**Time spent this session: 1h5m**
+
 **Total time spent: 13h01m**
