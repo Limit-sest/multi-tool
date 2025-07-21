@@ -4,21 +4,24 @@
 #include <ctime>
 #include <QMC5883LCompass.h>
 #include <MPU6500_WE.h>
+#include <SoftwareSerial.h>
+#include <TinyGPSPlus.h>
 
 RTC_DS3231 rtc;
 QMC5883LCompass compass;
 MPU6500_WE mpu = MPU6500_WE();
+TinyGPSPlus gps;
+SoftwareSerial ss(D7, D6);
 
 void setup()
 {
   Wire.begin();
   Serial.begin(9600); // for communicating with pc
+  ss.begin(9600);     // gps communication
 
   if (!rtc.begin())
   {
     Serial.println("Can't find rtc");
-    while (1)
-      ;
   }
 
   compass.init();
@@ -88,6 +91,14 @@ void loop()
   Serial.print(temp);
   Serial.println("°C");
   // Temperature: 27°C
+
+  Serial.print("Latitude: ");
+  Serial.println(gps.location.lat(), 8);
+  Serial.print("Longitude: ");
+  Serial.println(gps.location.lng(), 8);
+  Serial.print("Altitude: ");
+  Serial.print(gps.altitude.meters());
+  Serial.println("m");
 
   Serial.println("********************************************");
 
