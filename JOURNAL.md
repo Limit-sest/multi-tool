@@ -5,6 +5,8 @@ description: "A small pocket-size gadget that features clock or compass, with mo
 created_at: "2025-07-12"
 ---
 
+**Total time spent: 14h06m**
+
 # July 12: Project outline and components
 I've created this github repo and settled down on what the final projet should look like. I've had the project visioned for a some time, but i've started now building it. 
 
@@ -113,5 +115,3 @@ I found out on the internet that the easiest solution is just to use the Arduino
 This day I made very basic firmware for RTC and compass. I had to be writing it only theoretically, because i don't have access to the hardware modules yet, so I can't really test it. I've used RTClib and QMC5883LCompass libraries, for each module one.
 
 **Time spent this session: 1h5m**
-
-**Total time spent: 14h06m**
