@@ -135,7 +135,7 @@ For the gps, I added 2 libraries: `TinyGPSplus` and `SoftwareSerial`. The second
 I then looked over to the displaing of things. I eventually wanted to use the `LVGL` lib which is focused on fancy animations, beautiful gradients and widgets, etc.. Here is a quote from their website:
 > From consumer electronics to industrial automation, any application can leverage LVGL's 30+ built-in widgets, 100+ style properties, web-inspired layouts, and typography system supporting many languages.
 
-But I don't think this would be suited for me, as I will be using a monochrome 128x96 display. Not quiete suited for the fancy stuff. And then I found `u8g2`, a library that specifically focuses on monochrome displays. It is mainly for text rendering, but also supports line/box/circle drawing. And I feel that this library has exactly the retro feel that i want for this device. Using it's documentation, i found what class i will be using for my display. It's this:
+But I don't think this would be suited for me, as I will be using a monochrome 128x96 display. Not quiete suited for the fancy stuff. And then I found `u8g2`, a library that specifically focuses on monochrome displays. It is mainly for text rendering, but also supports line/box/circle drawing. And I feel that this library has exactly the retro feel that I want for this device. Using it's documentation, I found what class I will be using for my display. It's this:
 
 ```
 U8G2_SSD1327_VISIONOX_128X96_1_SW_I2C
@@ -150,7 +150,7 @@ Prefix |     |        |           |
 It now should display the time from the rtc module on screen.
 
 ## Readme demo animation
-But large portion of time this session was spent making a readme header, which i imagined as a gif that would be like a demo for the usecases. I downloaded aseprite, which is actually free if you compile it yourself!
+But large portion of time this session was spent making a readme header, which I imagined as a gif that would be like a demo for the usecases. I downloaded aseprite, which is actually free if you compile it yourself!
 
 I made a scetch of the dimensions:
 ![Rough outline](<./images/Screenshot from 2025-07-21 16-50-28.png>)
@@ -158,7 +158,8 @@ And then continues with clock ui
 ![Clock display](<./images/Screenshot from 2025-07-21 17-20-39.png>)
 And finally compass, which will rotate.
 ![Compass UI](<./images/Screenshot from 2025-07-21 18-07-28.png>)
-And this is the result!.
+And this is the result!
+
 ![Final animation](<./images/readmedemo.gif>)
 
 **Time spent this session: 3h46m**
