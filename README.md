@@ -9,11 +9,11 @@
 It is a minimalist gadget/device, with functions between watch and a phone. The content will be displayed on a 1.32 inch 128x96 monochrome oled display, and the brain will be Seeed XIAO nRF52840. I want for it to have a retro feel, so most of the UI will be text-based.
 
 ## Why?
-When i went on a trip to nature, i found a phone to be too much power-hungry. But i also wanted something more than a watch, something that will have distance tracking, compass and other useful things for being and navigating in nature. Maybe even throw some simple games like pong in there for fun in the train. And the ideas and desire for this thing just kept rolling and growing.
+When I went on a trip to nature, I found a phone to be too much power-hungry. But I also wanted something more than a watch, something that will have distance tracking, compass and other useful things for being and navigating in nature. Maybe even throw some simple games like pong in there for fun in the train. And the ideas and desire for this thing just kept rolling and growing.
 
 
 ## The features
-*Since i don't have the hardware parts yet, I'm not able to write code for all the features that are promised, because having the display and sensors is very important for testing.*
+*Since I don't have the hardware parts yet, I'm not able to write code for all the features that are promised, because having the display and sensors is very important for testing.*
 ### The main screen
 This is where most of the useful info will be located. It will have:
 - **A clock**, either in 24h or 12h format, with seconds
@@ -37,10 +37,10 @@ Moving around the ui will be done with 2 hardware components:
 - **Back button** - this is the second button, which will be as an "Esc" key. It will back out of any menu.
 
 ## Power expectations
-This will have a 550mAh Lipo battery, which should power the device for roughly 38 hours, but if i manage to properly optimize sleep, it could be higher. But even if it was 38 hours, it won't take much of capacity of an external powerbank, especially when compared to a phone.
+This will have a 550mAh Lipo battery, which should power the device for roughly 38 hours, but if I manage to properly optimize sleep, it could be higher. But even if it was 38 hours, it won't take much of capacity of an external powerbank, especially when compared to a phone.
 
 ## 3D model
-*Sorry that i don't have proper CAD source files and a case, i did the assembly in tinkercad because i was low on time* 
+*Sorry that I don't have proper CAD source files and a case, I did the assembly in tinkercad because I was low on time* 
 
 ![3D Model](<./images/Screenshot 2025-07-22 at 16-49-46 3D design MultiTool - Tinkercad.png>)
 ![3D Model](<./images/Screenshot 2025-07-22 at 16-52-20 3D design MultiTool - Tinkercad.png>)
@@ -57,7 +57,7 @@ This will have a 550mAh Lipo battery, which should power the device for roughly 
 |MPU-6500 6-Axis Accelerometer Gyroscope|1       |$2.03      |$0.00         |$2.03            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005008913624575.html|
 |DS3231 Real Time Clock                 |1       |$1.80      |$0.00         |$1.80            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005006885926027.html|
 |GT-U7 GPS module                       |1       |$6.80      |$0.00         |$6.80            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005001713388717.html|
-|Lipo Battery                           |1       |$9.01      |$2.68         |$11.69           |This was the best battery i could find when comparing size and capacity                                  |https://www.aliexpress.com/item/1005006666958920.html|
+|Lipo Battery                           |1       |$9.01      |$2.68         |$11.69           |This was the best battery I could find when comparing size and capacity                                  |https://www.aliexpress.com/item/1005006666958920.html|
 |360 Degrees Rotary Encoder Module      |1       |$1.28      |$0.00         |$1.28            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005006579651632.html|
 |Tactile push button                    |1       |-          |-             |-                |I will be buying this with my own money from a local shop                                                |-                                                    |
 |                                       |        |           |              |                 |                                                                                                         |                                                     |
