@@ -40,13 +40,12 @@ Moving around the ui will be done with 2 hardware components:
 This will have a 550mAh Lipo battery, which should power the device for roughly 38 hours, but if I manage to properly optimize sleep, it could be higher. But even if it was 38 hours, it won't take much of capacity of an external powerbank, especially when compared to a phone.
 
 ## 3D model
-*Sorry that I don't have proper CAD source files and a case, I did the assembly in tinkercad because I was low on time* 
+*Please note that the parts that appear floating will be glued to a wall of the case.* 
 
-![3D Model](<./images/Screenshot 2025-07-22 at 16-49-46 3D design MultiTool - Tinkercad.png>)
-![3D Model](<./images/Screenshot 2025-07-22 at 16-52-20 3D design MultiTool - Tinkercad.png>)
+![3d model render](<images/3d.PNG>)
 
 ## Wiring
-<img width="587" height="820" alt="Screenshot from 2025-07-21 12-04-51" src="https://github.com/user-attachments/assets/7e1946fe-9c6a-491a-8c40-92dc4c0d0a11" />
+![wiring diagram](<images/Screenshot from 2025-07-24 03-06-12.png>)
 
 ## Bill Of Materials
 |Item                                   |Quantity|Price (USD)|Shipping (USD)|Total Price (USD)|Note                                                                                                     |Link                                                 |
@@ -57,8 +56,9 @@ This will have a 550mAh Lipo battery, which should power the device for roughly 
 |MPU-6500 6-Axis Accelerometer Gyroscope|1       |$2.03      |$0.00         |$2.03            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005008913624575.html|
 |DS3231 Real Time Clock                 |1       |$1.80      |$0.00         |$1.80            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005006885926027.html|
 |GT-U7 GPS module                       |1       |$6.80      |$0.00         |$6.80            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005001713388717.html|
-|Lipo Battery                           |1       |$9.01      |$2.68         |$11.69           |This was the best battery I could find when comparing size and capacity                                  |https://www.aliexpress.com/item/1005006666958920.html|
+|Lipo Battery                           |1       |$9.01      |$2.68         |$11.69           |This was the best battery i could find when comparing size and capacity                                  |https://www.aliexpress.com/item/1005006666958920.html|
 |360 Degrees Rotary Encoder Module      |1       |$1.28      |$0.00         |$1.28            |Shipping is free due to aliexpress choice                                                                |https://www.aliexpress.com/item/1005006579651632.html|
 |Tactile push button                    |1       |-          |-             |-                |I will be buying this with my own money from a local shop                                                |-                                                    |
+|2x16mm Screw                           |4       |-          |-             |-                |I already have it, it's for screwing the layers together                                                 |-                                                    |
 |                                       |        |           |              |                 |                                                                                                         |                                                     |
 |Total Cost                             |        |           |              |$43.88           |                                                                                                         |                                                     |
