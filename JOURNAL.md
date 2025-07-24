@@ -5,7 +5,7 @@ description: "A small pocket-size gadget that features clock or compass, with mo
 created_at: "2025-07-12"
 ---
 
-**Total time spent: 17h52m**
+**Total time spent: 26h05m**
 
 # July 12: Project outline and components
 I've created this github repo and settled down on what the final projet should look like. I've had the project visioned for a some time, but i've started now building it. 
@@ -163,4 +163,40 @@ And this is the result!
 ![Final animation](<./images/readmedemo.gif>)
 
 **Time spent this session: 3h46m**
+
+## Proper CAD
+
+After asking in highway's slack channel, i found out that 3d models are neccesary for every project. I was hoping that because I'd apply for the lowest tier that i wouldn't have to do a case, but i was wrong. So i installed Fusion because i've felt it would have most community resources and also I've tried onshape before and didn't really like it.
+
+The guide for hackpad 3d modelling was really useful for me, at least in the beggining. I was able to draw the first scetch, which will be floor, support for battery, support for 2nd layer and also it will define the walls.
+
+![](<images/Windows 10 x64-2025-07-24-02-30-46.png>)
+
+I was drawing the scretch alongside the imported components.
+
+![](<images/Windows 10 x64-2025-07-24-02-34-37.png>)
+
+I then raised the drawed shapes to form a 3d shape. I've raised both the battery support and 2nd floor support. Then i placed the battery on top of the accelerometer, and thanks to the supports they aren't in contact with each other.
+
+![](<images/Windows 10 x64-2025-07-24-02-38-43.png>)
+
+After that I placed the 3 modules that would be on the second floor, RTC, GPS and magnetometer. I placed them into the air at first, so i ccan draw scetch around them. In the scetch in the bottom left corner of the 2nd floor i made a hole for wires, which has a tunnel already made all the way to the microcontroller.
+
+![](<images/Windows 10 x64-2025-07-24-02-41-42.png>)
+![](<images/Windows 10 x64-2025-07-24-02-42-51.png>)
+
+I started working on another layer, which will hold the display and push button up and it will be the first layer that mounts directly onto the walls, so it won't be glued inside like the layer before. I first centered the screen to the whole case, which I've done using the align tool. The button was also aligned, but to the top face of the knob. And then drew holes for screw on the bottom of the scetch and in the top made hole for the knob and the button, which also has a little bridge holding it.
+
+![](<images/Windows 10 x64-2025-07-24-02-53-02.png>)
+![](<images/Windows 10 x64-2025-07-24-02-55-22.png>)
+
+I realized i need an another layer on top of this, to hide the screen edges and also encase the button.
+
+![](<images/Windows 10 x64-2025-07-24-02-58-08.png>)
+![](<images/Windows 10 x64-2025-07-24-03-00-11.png>)
+
+And i didn't forget to add the hole for USB-C.
+
+![](<images/Windows 10 x64-2025-07-24-03-01-18.png>)
+**Time spent this session: 8h13m**
 
