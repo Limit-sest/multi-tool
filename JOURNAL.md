@@ -164,7 +164,7 @@ And this is the result!
 
 **Time spent this session: 3h46m**
 
-## Proper CAD
+## July 23-24 Proper CAD
 
 After asking in highway's slack channel, i found out that 3d models are neccesary for every project. I was hoping that because I'd apply for the lowest tier that i wouldn't have to do a case, but i was wrong. So i installed Fusion because i've felt it would have most community resources and also I've tried onshape before and didn't really like it.
 
